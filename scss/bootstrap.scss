@@ -2,7 +2,33 @@
 $font-family-sans-serif: 'Open Sans', sans-serif;
 
 $primary: #c167ef;
-$secundary: #10bcee;
+$secondary: #10bcee;
 $dark: #2b3041;
 $light: #f3f6f9;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+$navbar-toggler-border-radius: 5px;
+
+// Buttons
+$button-radius: 50px;
+$buttton-padding-x:30px;
+$buttton-padding-y:10px;
+
+// Op elk scherm grootte dezelfde radius gebruiken
+// hiervoor gebruiken we een aparte variabele waar we de radius eenmaal instellen
+// zodat we het kunnen hergebruiken
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $buttton-padding-x;
+$btn-padding-x-xs: $buttton-padding-x;
+$btn-padding-x-lg: $buttton-padding-x;
+$btn-padding-y: $buttton-padding-y;
+$btn-padding-y-sm: $buttton-padding-y;
+$btn-padding-y-lg: $buttton-padding-y;
+
+
 @import '../node_modules/bootstrap/scss/bootstrap';
